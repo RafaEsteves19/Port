@@ -1,0 +1,40 @@
+@use '../variables'
+@use '../mixins'
+
+.projects-container
+  margin-top: 20px
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.btn
+  margin-top: 20px
+
+.project-content
+  color: variables.$text-color-secondary
+  margin-top: 1px
+  width: 80%
+  border-radius: 8px
+  gap: 1rem
+  padding: 1rem
+  background-color: variables.$bg-color
+  display: flex
+  align-items: center
+
+.project-image
+  max-width: 20%
+  height: auto
+  border-radius: 8px
+
+.project-details
+  margin-left: 20px
+
+  p
+    margin-bottom: 10px
+
+  a
+    display: block
+    margin-top: 10px
+
+.project-text
+  margin-top: 30px
