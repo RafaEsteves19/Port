@@ -3,7 +3,7 @@ const AboutContainer = () => {
     <section className="about-container">
       <h2>Sobre Mim</h2>
       <p>
-      Olá! Sou Rafael Esteves, tenho 15 anos e estou me aventurando no mundo do desenvolvimento Full Stack.
+      Olá! Sou Rafael Leandro Esteves, tenho 15 anos e estou me aventurando no mundo do desenvolvimento Full Stack.
       Adoro TI e estou sempre aprendendo algo novo.
       Já tenho certificados em Informática Intermediária e Digitação, o que tem me ajudado bastante.
       </p>

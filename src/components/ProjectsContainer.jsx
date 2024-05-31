@@ -6,9 +6,9 @@ const ProjectsContainer = () => {
     <section className="projects-container">
       <h2>Projetos</h2>
       <p>
-        <div>- Tecnologias Utilizadas: HTML, CSS, JavaScript</div>
-        <div> - Meu portfólio apresenta uma variedade de projetos que demonstram minha experiência em desenvolvimento web, desde aplicações simples de calculadoras até sites de portfólio pessoal e aplicações dinâmicas usando React. Cada projeto reflete meu compromisso com a qualidade, inovação e aprendizado contínuo como desenvolvedor full stack.</div>
-        <div>- Alguns dos meus projetos são: Reprodução de Galaga em Js, Calculadora Imc, Calculadora Js e esse próprio Portifólio</div>
+        <div className = "text-space">- Tecnologias Utilizadas: HTML5, CSS3, JavaScript, React, Node.js, C#</div>
+        <div className = "text-space"> - Meu portfólio apresenta uma variedade de projetos que demonstram minha experiência em desenvolvimento web, desde aplicações simples de calculadoras até sites de portfólio pessoal e aplicações dinâmicas usando React. Cada projeto reflete meu compromisso com a qualidade, inovação e aprendizado contínuo como desenvolvedor full stack.</div>
+        <div className = "text-space">- Alguns dos meus projetos são: Reprodução de Galaga em Js, Calculadora Imc, Calculadora Js e esse próprio Portifólio</div>
       </p>
 
       <a href="https://github.com/RafaEsteves19?tab=repositories" className="btn">

@@ -14,6 +14,7 @@ const technologies = [
   { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
   { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
   { id: "react", name: "React", icon: <DiReact /> },
+  { id: "cshrp", name: "CSharp",icon: <span style={{ color: 'white' }}>C#</span> },
 ];
 
 const getTechnologyDescription = (techName) => {
@@ -28,7 +29,8 @@ const getTechnologyDescription = (techName) => {
       return "Node.js usa JavaScript para criar servidores poderosos para aplicativos web complexos.";
     case "React":
       return "React simplifica a criação de partes reutilizáveis de sites, facilitando a construção de aplicativos web interativos e eficientes.";
-      return "";
+    case "CSharp":
+      return "C# é uma linguagem de programação muito usada para Back-End pois faz parte do framework .NET, usada para criar aplicativos desktop, web e móveis."
   }
 };
 
